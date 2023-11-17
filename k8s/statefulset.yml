@@ -37,7 +37,7 @@ spec:
       name: mysql-data
     spec:
       accessModes: [ "ReadWriteMany" ]
-      storageClassName: ""
+      storageClassName: nfs-client
       resources:
         requests:
           storage: 1Gi
